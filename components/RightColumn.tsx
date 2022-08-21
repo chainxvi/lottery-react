@@ -55,7 +55,7 @@ export function RightColumn(props: {requestedLotteryWinner: boolean}) {
           lastTimeStamp,
           interval,
           isStarted: participants.length !== 0,
-        })
+        });
       }
     }, [isWeb3Enabled]
   )
