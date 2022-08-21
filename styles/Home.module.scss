@@ -1,0 +1,63 @@
+.main {
+  padding: 22px 38px 42px;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  .title {
+    font: 700 62px/76px 'IBM Plex Mono';
+  }
+  .description {
+    margin: 34px auto 28px;
+    max-width: 728px;
+    font: 300 18px/32px 'Inter';
+    color: #CCD7DF;
+  }
+
+  .lotteryButton {
+    height: 60px;
+    background: linear-gradient(93.68deg, #8068FF 0%, #3D1EFF 100%);
+    border-radius: 30px;
+    padding: 0 16px 0 22px;
+    font: 700 18px/22px 'Inter';
+    outline: none;
+    border: none;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    .text {
+      margin: 0 16px 0 10px;
+    }
+    
+    &.isParticipant {
+      background: linear-gradient(93.68deg, #F1EEFF 0%, #9890CB 100%) !important;
+      pointer-events: none;
+      cursor: not-allowed !important;
+      span {
+        background: linear-gradient(93.68deg, #FF0000 0%, #F4F91C 29.17%, #27F492 66.67%, #AD00FE 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+    }
+
+    &:hover {
+      background: linear-gradient(93.68deg, #3D1EFF 0%, #8068FF 100%);
+    }
+  }
+  
+  .minEntranceFee{
+    font: 400 14px/22px 'Inter';
+    margin-top: 8px;
+  }
+}
+
+.lotteryDataSection {
+  max-width: 100%;
+  padding: 0 96px 60px;
+  display: grid;
+  grid-template-columns: 1fr 334px;
+  align-items: flex-start;
+  gap: 22px;
+}

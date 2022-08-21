@@ -1,0 +1,38 @@
+{
+  "name": "chain-lottery",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export && next-image-export-optimizer",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@metamask/jazzicon": "^2.0.0",
+    "@nextui-org/react": "^1.0.0-beta.9",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "@web3auth/web3auth": "^1.1.1",
+    "jazzicon": "^1.5.0",
+    "magic-sdk": "^8.1.1",
+    "moment": "^2.29.4",
+    "moralis": "^1.8.0",
+    "next": "12.1.5",
+    "next-image-export-optimizer": "^0.12.1",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-moralis": "^1.4.0",
+    "react-toastify": "^9.0.8",
+    "sass": "^1.53.0",
+    "web3uikit": "^0.1.159"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.7.4"
+  }
+}

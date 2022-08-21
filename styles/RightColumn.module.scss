@@ -1,0 +1,36 @@
+.rightColumn {
+  display: grid;
+  gap: 22px;
+  .card {
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    padding: 24px;
+  }
+
+  .cardTitle {
+    font: 400 22px/27px "Inter";
+    letter-spacing: 0.03em;
+    margin-bottom: 26px;
+    small {
+      font: 400 18px/27px "Inter";
+    }
+  }
+  
+  .accountContainer{
+    display: flex;
+    align-items: center;
+    .image {
+      height: 56px;
+      width: 56px;
+      border-radius: 50%;
+      background: white;
+      margin-right: 16px;
+    }
+    .accountText {
+      font: 600 20px/24px "Inter";
+    }
+  }
+  
+  .etherText {
+    font: 600 42px/55px "IBM Plex Mono";
+  }
+}

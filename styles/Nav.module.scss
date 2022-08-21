@@ -1,0 +1,25 @@
+.nav {
+  height: 72px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .links {
+    display: flex;
+    align-items: center;
+    a {
+      margin-right: 24px;
+      color: white;
+      font: 500 14px/17px 'Inter';
+      &:last-child {
+        margin-right: 26px;
+      }
+      &:hover {
+        color: #B1B9FF;
+      }
+      &:focus, &:active {
+        color: #3549FF;
+      }
+    }
+  }
+}
